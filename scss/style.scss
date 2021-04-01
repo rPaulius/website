@@ -27,7 +27,7 @@
     
   }
 
-  button {
+  .headerbutton {
   margin-right: 100px;
   padding: 5px;
   background-color: rgb(0, 89, 255);
@@ -414,7 +414,12 @@ border-radius: 5px;
   word-spacing: 20px;
   margin-top: 50px;
   color: rgb(0, 89, 255);
+  font-size: 30px;
   
+}
+
+.footertext {
+  margin-left: 15px;
 }
  
 // MEDIA QUERIES
@@ -426,12 +431,44 @@ border-radius: 5px;
   }
 
   .top-section {
+    height: 600px;
+  }
+
+
+  h1 p {
+    padding: 50px;
+  }
+
+
+
+ .email-button {
+   width: 48%;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   
+   
+ }
+ 
+  .email-button-text {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+    
+
+  .top-section {
     display: flex;
     flex-direction: column;
+    
   }
   
   .input input {
     display: flex; 
+    margin: 0 auto;
+    width: 45%;
+    
+    
     
       
   }
@@ -439,18 +476,67 @@ border-radius: 5px;
   .second-section {
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 700px;
   }
 
-  .main-section {
-    display: flex;
-    flex-direction: column;
-    height: 1200px;
-  }
+ .main-section {
+   height: 100%;
+ }
 
-  .row1, .row2, .row3 {
-    display: flex;
-  }
+
+ .row1 {
+   display: flex;
+   flex-direction: column-reverse;
+   height: 800px;
+ }
+
+ .row1image {
+   max-width: 100%;
+   height: 500px;
+ }
+ 
+ .row1text {
+  padding: 50px;
+ }
+
+ .row2 {
+   display: flex;
+   flex-direction: column;
+   height: 800px;
+ }
+
+ .row2image {
+   max-width: 100%;
+   height: 500px;
+ }
+
+ .row2text {
+   padding: 50px;
+ }
+
+ .row3 {
+   display: flex;
+   flex-direction: column-reverse;
+   height: 800px;
+ }
+
+ .row3image {
+   max-width: 100%;
+   height: 500px;
+ }
+
+ .row3text {
+   padding: 50px;
+ }
+
+.fourth-section h3 {
+  padding: 50px;
+}
+ 
+
+
+
+
 
   .third-section {
     display: flex;
@@ -482,12 +568,28 @@ border-radius: 5px;
     margin: auto 0;
   }
 
-  .socialmedia {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    align-items: center;
-    letter-spacing: 50px;
-  }
   
+    
+  footer {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .footertext {
+    margin-top: 40px;
+  }
+
+  .socialmedia {
+    padding: 0 auto;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+
+
 }
+
+
+
